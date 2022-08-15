@@ -79,7 +79,7 @@ const pickCommand = async (args: string[], receivedMessage: Message) => {
     }, MAX_DURATION_MS);
   }
   else {
-    receivedMessage.channel.send('Only the Super Pal Bot can use this command.')
+    await receivedMessage.channel.send('Only the Super Pal Bot can use this command.');
   }
 };
 
