@@ -62,6 +62,7 @@ const pickCommand = async (args: string[], receivedMessage: Message) => {
 
     setTimeout(async () => {
       await message.delete();
+      await receivedMessage.delete();
 
       const selectedOptionAttachmment = new MessageAttachment(
         wheel.getLastFrame(),
