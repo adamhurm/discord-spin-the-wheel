@@ -17,4 +17,4 @@ client.on('message', (receivedMessage) => {
   }
 });
 
-client.login(process.env.TOKEN);
+client.login(process.env.WHEEL_TOKEN);
