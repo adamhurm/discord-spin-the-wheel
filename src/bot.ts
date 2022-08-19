@@ -1,6 +1,6 @@
 import { Client } from 'discord.js';
 import { processCommand } from './bot/commands';
-require('dotenv').config({ path: path.resolve(__dirname, '../.env')});
+require('dotenv').config({ path: '../.env'});
 
 const client = new Client();
 
