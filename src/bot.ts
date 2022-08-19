@@ -1,5 +1,6 @@
 import { Client } from 'discord.js';
 import { processCommand } from './bot/commands';
+require('dotenv').config({ path: '/home/discord-super-pal-of-the-week' });
 
 const client = new Client();
 
