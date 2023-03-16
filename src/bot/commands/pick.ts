@@ -22,7 +22,7 @@ const pickCommand = async (args: string[], receivedMessage: Message) => {
     const options = parseArgsAsCsv(args);
 
     if (!options || options.length < 2) {
-      await receivedMessage.channel.send('ℹ Usage: _!pick name1,name2,name3_');
+      await receivedMessage.channel.send('ℹ Usage: _?pick name1,name2,name3_');
       return;
     }
 

@@ -19,7 +19,7 @@ This bot generates a dynamic spin wheel gif with the options specified as argume
 
 - **!pick**: this command creates the spin wheel with the options passed as arguments separated by commas.
 
-  Example: _!pick option1,option2,option3,option4_
+  Example: _?pick option1,option2,option3,option4_
 
 ## Limitations
 

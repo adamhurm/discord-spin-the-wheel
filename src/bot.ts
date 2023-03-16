@@ -13,7 +13,7 @@ client.on('message', (receivedMessage) => {
     return;
   }
 
-  if (receivedMessage.content?.[0] === '!') {
+  if (receivedMessage.content?.[0] === '?') {
     processCommand(receivedMessage);
   }
 });
