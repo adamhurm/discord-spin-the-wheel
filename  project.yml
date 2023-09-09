@@ -1,0 +1,5 @@
+packages:
+  - name: discord-bots
+    actions:
+      - name: spin-the-wheel
+        runtime: 'nodejs:default'
