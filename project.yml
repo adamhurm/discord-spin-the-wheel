@@ -3,5 +3,5 @@ packages:
     actions:
       - name: spin-the-wheel
         binary: false
-        runtime: 'nodejs:default'
+        runtime: 'nodejs:14'
         web: true

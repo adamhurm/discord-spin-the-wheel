@@ -9,7 +9,7 @@ const commands: Commands = {
 };
 
 const processCommand = (receivedMessage: string) => {
-  const fullCommand = receivedMessage.content.substr(1);
+  const fullCommand = receivedMessage;
   const splitCommand = fullCommand.split(' ');
   const primaryCommand = splitCommand[0];
   const args = splitCommand.slice(1);
