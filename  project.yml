@@ -2,4 +2,6 @@ packages:
   - name: discord-bots
     actions:
       - name: spin-the-wheel
+        binary: false
         runtime: 'nodejs:default'
+        web: true
