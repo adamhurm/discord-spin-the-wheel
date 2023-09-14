@@ -2,7 +2,7 @@
   "main": "bot.js",
   "scripts": {
     "dev": "nodemon --exec ts-node src/bot.ts",
-    "setup": "tsc -p .",
+    "build": "tsc -p .",
     "start": "tsc -p . && node dist/bot.js",
     "test": "jest"
   },

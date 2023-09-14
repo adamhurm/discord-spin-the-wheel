@@ -1,3 +1,3 @@
-node_modules
-dist
 packages/spin-the-wheel/spin-the-wheel/.env
+packages/spin-the-wheel/spin-the-wheel/dist
+packages/spin-the-wheel/spin-the-wheel/node_modules

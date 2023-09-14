@@ -1,0 +1,18 @@
+[
+  {
+    "apihost": "https://faas-tor1-70ca848e.doserverless.co",
+    "namespace": "fn-d8f6b6ca-6b8a-414a-95f9-3cf38339ae71",
+    "packageVersions": {
+      "spin-the-wheel": {
+        "version": "0.0.4",
+        "digest": "1a721a470ff1cc08d2dd3235b4fc9341970c13f892c9d896918a2e6760501f65"
+      },
+      "discord-bots": {
+        "version": "0.0.1",
+        "digest": "1a721a470ff1cc08d2dd3235b4fc9341970c13f892c9d896918a2e6760501f65"
+      }
+    },
+    "actionVersions": {},
+    "webHashes": {}
+  }
+]
