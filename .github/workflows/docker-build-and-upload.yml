@@ -41,5 +41,5 @@ jobs:
           platforms: linux/amd64, linux/arm64
           file: ./Dockerfile
           push: true
-          tags: ${{ steps.meta-super-pal.outputs.tags }}
-          labels: ${{ steps.meta-super-pal.outputs.labels }}
+          tags: ${{ steps.meta-spin-the-wheel.outputs.tags }}
+          labels: ${{ steps.meta-spin-the-wheel.outputs.labels }}
